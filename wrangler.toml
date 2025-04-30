@@ -1,0 +1,23 @@
+name = "cf-ai-worker-demo"
+main = "src/index.js"
+compatibility_date = "2025-04-21"
+
+[[kv_namespaces]]
+binding = "MY_KV_NAMESPACE"
+id = "your_kv_namespace_id"
+
+[[d1_databases]]
+binding = "MY_D1_DATABASE"
+database_name = "your_d1_db"
+database_id = "your_d1_db_id"
+
+[[r2_buckets]]
+binding = "MY_R2_BUCKET"
+bucket_name = "your_r2_bucket_name"
+
+[[ai]]
+binding = "MY_AI"
+
+[[autorag]]
+binding = "MY_AUTORAG_INSTANCE"
+autorag_name = "your_autorag_instance"
